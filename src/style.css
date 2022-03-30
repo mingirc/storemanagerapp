@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import-normalize;
+
+body{
+    background-color:#DDDDDD; 
+    margin:0px;
+    padding:0px; 
+    overflow-y:scroll;
+    font-family: Roboto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #EEEEEE; /*#fff3dc8a*/
+border: 1px solid #999;
+border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888888; /*#D88144; */
+border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555555;
+}
+
+h2{
+  width: 100%;
+  text-align: left;
+  font-family: Roboto;
+  margin: 20px 0;
+  margin-bottom: 40px;
+  color:#555555;
+}

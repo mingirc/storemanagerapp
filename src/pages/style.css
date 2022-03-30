@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1{
+  width: 100%;
+  text-align: center;
+  /* background-color: beige; */
+  font-family: Roboto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  color:#555555;
+}
+
+.figClass{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.figClass > figcaption {
+  color: #555555
+}
+
+@keyframes upArrow {
+    from {
+      margin-top: -8px;
+    }
+  
+    to {
+        margin-top: 8px;
+    }
+  }
+  
+.upArrow {
+    animation-duration: 1s;
+    animation-name: upArrow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }

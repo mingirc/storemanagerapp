@@ -1,0 +1,36 @@
+/* Circular(hover:Square) navigation block's style sheet */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #5D0300; */
+    box-shadow: 1px 3px 8px rgb(225, 225, 225);
+    overflow: hidden;
+}
+
+.circle{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition: 300ms;
+}
+
+.square{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    transition: 300ms;
+}
+
+.big{
+    width: 150px;
+    height: 150px;
+}
+
+.small{
+    width: 60px;
+    height: 60px;
+}
+
+.xsmall{
+    width: 40px;
+    height: 40px;
+}

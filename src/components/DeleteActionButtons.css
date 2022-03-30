@@ -1,0 +1,20 @@
+.buttonBase{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    color:white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 5px 8px rgb(100, 100, 100);
+}
+.deleteButton{
+    background-color: #10A124;
+}
+
+.cancelButton{
+    background-color: #D22626;
+}

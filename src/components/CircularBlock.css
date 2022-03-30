@@ -1,0 +1,171 @@
+/* CircularBlocks that used on products and categories pages */
+.blockImageContainer{
+    display: flex;
+    position:static;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    object-position: center center;
+    z-index: 10;
+    box-shadow: 1px 3px 8px rgb(225, 225, 225);
+    /* border: 1px solid black; */
+}
+
+.blockImage{
+    width: 74%;
+    /* display: block;
+    margin: auto;
+    object-fit: contain;
+    object-position: center top; */
+    /* width: 120px;
+    margin:auto; */
+}
+
+.caption{
+    font-family: Roboto;
+    color: #555555;
+    margin-top: 10px;
+}
+
+figcaption{
+    font-family: Roboto;
+    text-decoration: none;
+    color: #555555;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.outerContainer{
+    display: flex;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+    /* border: 1px solid red; */
+    transition-duration: 1000ms;
+}
+
+.buttonContainer{
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    box-shadow: 1px 3px 8px rgb(200, 200, 200);
+    transition-duration: 300ms;
+}
+
+/* 
+.menuButtonOpen {
+
+} */
+
+.menuButtonClose{
+    position: absolute;
+    transform: translate(100px, 0px);
+    -ms-transform: translate(100px, 0px);
+    -webkit-transform: translate(100px, 0px);
+    -moz-transform: translate(100px, 0px);
+    -o-transform: translate(100px, 0px);
+    z-index: 11;
+}
+
+
+/* ---- VERSION 1 ---- */
+
+.editButtonClose{
+    position: absolute;
+    transform: translate(70px, -30px);
+    -ms-transform: translate(70px, -30px);
+    -webkit-transform: translate(70px, -30px);
+    -moz-transform: translate(70px, -30px);
+    -o-transform: translate(70px, -30px);
+    z-index: 2;
+}
+
+.editButtonOpen {
+    position: absolute;
+    transform: translate(108px, -48px) rotate(360deg);
+    -ms-transform: translate(108px, -48px) rotate(360deg);
+    -webkit-transform: translate(108px, -48px) rotate(360deg);
+    -moz-transform: translate(108px, -48px) rotate(360deg);
+    -o-transform: translate(108px, -48px) rotate(360deg);
+    z-index: 2;
+}
+
+.deleteButtonClose{
+    position: absolute;
+    transform: translate(70px, 30px);
+    -ms-transform: translate(70px, 30px);
+    -webkit-transform: translate(70px, 30px);
+    -moz-transform: translate(70px, 30px);
+    -o-transform: translate(70px, 30px);
+    z-index: 3;
+}
+
+.deleteButtonOpen{
+    position: absolute;
+    transform: translate(108px, 48px) rotate(360deg);
+    -ms-transform: translate(108px, 48px) rotate(360deg);
+    -webkit-transform: translate(108px, 48px) rotate(360deg);
+    -moz-transform: translate(108px, 48px) rotate(360deg);
+    -o-transform: translate(108px, 48px) rotate(360deg);
+    z-index: 3;
+}
+
+
+/* 
+---- VERSION 2 ----
+
+.editButtonClose{
+    margin-left: 190px;
+    margin-bottom: 90px;    
+    z-index: 11;
+}
+
+.deleteButtonClose{
+    margin-left: 190px;
+    margin-top: 90px;
+    z-index: 11;
+}
+
+.menuButtonClose{
+    display: none;
+}
+
+*/
+
+.icons{
+    height: 18px;
+}
+
+.menuIconOpen {
+    display:block;
+    /* border:1px solid red; */
+    width: 14px;
+    opacity: 0.7;
+    transition: 300ms;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.menuIconClose{
+    display:block;
+    width: 14px;
+    opacity: 0.3;
+    transition: 300ms;
+}
