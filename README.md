@@ -15,7 +15,7 @@ Thank you interested in store manager application.
 ### node 14.17.3
 
 
-For a local copy
+### For a local copy
 
 ### git clone git@github.com:mingirc/storemanagerapp.git
 
